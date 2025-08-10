@@ -1,26 +1,55 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0%;
+}
 body{
     height: 100vh;
-    margin: 0px;
-    position: relative;
 }
 header{
     padding: 20px;
     background-color: black;
-}
-header h1, h2{
-    margin-top: 0px;
     color: white;
     text-align: center;
 }
-header a{
+header h1{
+    padding-top: 15px;
+    font-variant: small-caps;
+}
+header p{
+    padding-bottom: 15px;
+}
+a{
+    font-weight: bolder;
     text-decoration: none;
     color: white;
 }
-header a:hover{
+a:hover{
     text-decoration: underline;
 }
 main{
 
+}
+section{
+    line-height: 2em;
+    padding: 10vh;
+
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    padding-left: 7vh;
+    background-color: rgb(87, 87, 87);
+    color: white;
+}
+.imagem > P{
+        padding: 20px;
+
+    border-radius: 10px;
+    width: 200px;
+    background-color: rgba(22, 22, 22, 0.322);
 }
 footer{
     width: 100%;
