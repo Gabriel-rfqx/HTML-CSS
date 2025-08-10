@@ -1,0 +1,30 @@
+#titulo{
+    text-align: center;
+}
+ol p{
+    text-indent: 50px;
+}
+ol{
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: azure;
+}
+ol li{
+    text-align: center;
+}
+ol h2{
+    margin-bottom: 0px;
+}
+ol p{
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    margin: 0px;
+    background-color: rgb(137, 182, 221);
+}
+a{
+    text-decoration: none;
+}
+ol hr{
+    width: 50%;
+}
