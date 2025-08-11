@@ -11,18 +11,14 @@
             border-collapse: collapse;
             text-align: center;
         }
-        table th, table tr{
+          table th,table td{
             border: 1px solid black;
         }
         table th{
-         
+            background-color:grey;
+            color: white;
             font-weight: bolder;
         }
-        table> tr > th:nth-child(2n){
-            background-color: gray;
-            color: white;
-        }
-
     </style>
 </head>
 <body>
@@ -38,7 +34,7 @@
             <th scope="col">Nota 2</th>
         </tr>
         <tr>
-            <th rowspan="4" scope="rowgroup">Exatas</th>
+            <td rowspan="4"><strong>Exatas</strong></td>
             <td>Matématica</td>
             <td>0.0</td>
             <td>0.0</td>
@@ -67,7 +63,7 @@
             <td>0.0</td>
         </tr>
         <tr>
-            <th rowspan="2">Humanas</th>
+            <td rowspan="2"><strong>Humanas</strong></td>
             <td>História</td>
             <td>0.0</td>
             <td>0.0</td>
