@@ -4,7 +4,7 @@
     margin: 0px;
 }
 body{
-    height: 100vh;
+    height: 100%;
 }
 header{
     height: 10%;
@@ -19,13 +19,13 @@ header h1{
     font-variant: small-caps;
 }
 main{
-    padding-top: 10px;
+    padding: 10px;
     box-shadow: inset -1px -1px 3px 1px black;
-    height: 87%;
+    height: 100%;
     background: linear-gradient(90deg,rgba(42, 123, 155, 0.83) 0%, rgba(168, 186, 175, 1) 50%, rgba(97, 94, 70, 0.85) 100%);
 }
 .modulo{
-    margin: 10px;
+    margin: 20px auto;
     width: 95%;
     padding: 1%;
     border-radius: 10px;
@@ -38,12 +38,21 @@ main{
     margin: 10px;
 }
 .conteudos{
+    overflow-y: auto;
+    width: 96%;
+    background-color: rgba(66, 65, 65, 0.733);
+    padding: 5px;
+    border-radius: 10px;
+    border: 4px solid black;
     margin: auto;
+    height: 507px;
     display: flex;
     flex-wrap: wrap;
 }
 .conteudo{
-    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
     margin-left: 10px;
     background-color: rgb(216, 215, 215);
     border: 2px solid black;
@@ -54,21 +63,24 @@ main{
 .conteudo h3{
     color: #FFFC00;
     border: 1px solid black;
-    border-radius: 13px 13px 2px 2px;
+    border-radius: 13px 13px 0px 0px;
     font-variant: small-caps;
     background-color: #009DFF;
     padding: 7px;
 }
 .conteudo iframe{
+    box-shadow: inset 1px 1px black;
     display: block;
     width: 98%;
 }
 .conteudo a{
-    border: 3px solid black;
+    margin-top: auto;
+    box-shadow: inset 1px 1px 6px 1px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgb(0, 0, 0);
     padding: 5px;
     display: block;
-    border-radius: 2px 2px 13px 13px;
-    background-color: #ff0000af;
+    border-radius: 2px 2px 12px 12px;
+    background-color: #ff00009f;
     color: white;
     text-decoration: none;
 }
