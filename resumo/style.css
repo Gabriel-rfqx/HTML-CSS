@@ -1,0 +1,84 @@
+@charset "UFT-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 10%;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+header h1{
+    margin: 10px;
+    font-variant: small-caps;
+}
+main{
+    padding-top: 10px;
+    box-shadow: inset -1px -1px 3px 1px black;
+    height: 87%;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 0.83) 0%, rgba(168, 186, 175, 1) 50%, rgba(97, 94, 70, 0.85) 100%);
+}
+.modulo{
+    margin: 10px;
+    width: 95%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgba(66, 65, 65, 0.356);
+}
+.modulo > h2{
+    text-align: center;
+}
+.modulo p,.modulo hr{
+    margin: 10px;
+}
+.conteudos{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.conteudo{
+    margin-top: 3px;
+    margin-left: 10px;
+    background-color: rgb(216, 215, 215);
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 270px;
+    text-align: center;
+}
+.conteudo h3{
+    color: #FFFC00;
+    border: 1px solid black;
+    border-radius: 13px 13px 2px 2px;
+    font-variant: small-caps;
+    background-color: #009DFF;
+    padding: 7px;
+}
+.conteudo iframe{
+    display: block;
+    width: 98%;
+}
+.conteudo a{
+    border: 3px solid black;
+    padding: 5px;
+    display: block;
+    border-radius: 2px 2px 13px 13px;
+    background-color: #ff0000af;
+    color: white;
+    text-decoration: none;
+}
+footer{
+    height: 2%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: bisque;
+}
