@@ -24,7 +24,11 @@ main{
     height: 100%;
     background: linear-gradient(90deg,rgba(42, 123, 155, 0.83) 0%, rgba(168, 186, 175, 1) 50%, rgba(97, 94, 70, 0.85) 100%);
 }
+.modulo ::-webkit-scrollbar{
+    width: 0px;
+}
 .modulo{
+    
     border-top: 1px solid rgba(255, 255, 255, 0.479);
     border-left: 1px solid rgba(255, 255, 255, 0.363);
     box-shadow: 2px 3px 3px #0000006e;
@@ -34,7 +38,7 @@ main{
     border-radius: 10px;
     background-color: rgba(66, 65, 65, 0.123);
     backdrop-filter: blur(100px);
-    1px 1px 6px rgb(0 0 0 / 32%);
+    text-shadow:  1px 1px 6px rgb(0 0 0 / 32%);
 }
 .modulo > h2{
     text-align: center;
