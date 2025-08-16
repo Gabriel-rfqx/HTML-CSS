@@ -9,36 +9,46 @@ body{
 header{
     height: 10%;
     padding: 1%;
-    background-color: black;
+    backdrop-filter: blur(9px) opacity(200%);
+    background-color: rgba(0, 0, 0, 0.747);
     color: white;
     text-align: center;
+    padding-bottom: 20px;
 
 }
 header h1{
     margin: 10px;
     font-variant: small-caps;
 }
+body{
+    height: 100%;
+    background: linear-gradient(90deg,rgba(42, 123, 155, 0.83) 0%, rgb(130, 148, 137) 50%, rgba(97, 94, 70, 0.85) 100%);
+}
 main{
     padding: 10px;
     box-shadow: inset -1px -1px 3px 1px black;
     height: 100%;
-    background: linear-gradient(90deg,rgba(42, 123, 155, 0.83) 0%, rgba(168, 186, 175, 1) 50%, rgba(97, 94, 70, 0.85) 100%);
 }
 .modulo ::-webkit-scrollbar{
     width: 0px;
 }
 .modulo{
-    
+    color: white;
     border-top: 1px solid rgba(255, 255, 255, 0.479);
     border-left: 1px solid rgba(255, 255, 255, 0.363);
-    box-shadow: 2px 3px 3px #0000006e;
+    box-shadow: 2px 3px 3px #0000003f;
     margin: 20px auto;
     width: 95%;
     padding: 1%;
     border-radius: 10px;
-    background-color: rgba(66, 65, 65, 0.123);
-    backdrop-filter: blur(100px);
+    background-color: rgba(66, 65, 65, 0.15);
+    backdrop-filter: blur(10px);
     text-shadow:  1px 1px 6px rgb(0 0 0 / 32%);
+}
+.modulo:hover{
+    box-shadow: 3px 4px 6px #00000052;
+    transform: translate(-0.5px, -2px);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 .modulo > h2{
     text-align: center;
@@ -49,40 +59,51 @@ main{
 .conteudos{
     overflow-y: auto;
     width: 96%;
-    background-color: rgba(66, 65, 65, 0.219);
+    background-color: rgba(66, 65, 65, 0.123);
     padding: 5px;
     border-radius: 10px;
     border: 4px solid rgba(0, 0, 0, 0.692);
     margin: auto;
-    height: 507px;
+    max-height: 507px;
     display: flex;
     flex-wrap: wrap;
     backdrop-filter: blur(100px);
+        box-shadow: 2px 2px 3px #0000003d;
+}
+.conteudos:hover{
+    box-shadow: 3px 3px 5px #00000042;
+    transform: translate(0px, -0.5px);
+    transition: transform 0.2s,  box-shadow 0.2s;
+   
+
 }
 .conteudo{
     display: flex;
     flex-direction: column;
     margin-top: 5px;
     margin-left: 10px;
-    background-color: rgb(216, 215, 215);
-    border: 2px solid black;
     border-radius: 15px;
     width: 270px;
     text-align: center;
 }
+
 .conteudo h3{
+    text-shadow:  1px 1px 6px rgb(0 0 0 / 32%);
     color: #FFFC00;
     border: 1px solid black;
     border-radius: 13px 13px 0px 0px;
     font-variant: small-caps;
-    background-color: #009DFF;
+    background-color: #006effb2;
     padding: 7px;
 }
 .conteudo iframe{
+    background-color: rgba(216, 215, 215, 0.897);
     box-shadow: inset 1px 1px black;
     display: block;
-    width: 98%;
+    width: 100%;
+    height: 100%;
 }
+
 .conteudo a{
     margin-top: auto;
     box-shadow: inset 1px 1px 6px 1px rgba(0, 0, 0, 0.5);
