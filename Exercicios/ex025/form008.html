@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+</head>
+<body>
+    <h1>Exemplos de formularios output</h1>
+    <form action="cadastro.php">
+        
+        <p>
+            <label for="in1">1* Número</label> <input required type="number"  id="in1" oninput="ires.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            <label for="in2">2* Número</label> <input required type="number" id="in2" oninput="ires.innerHTML = Number(in2.value) + Number(in1.value)">
+        </p>
+        <p>
+            <output id="ires">0</output>
+        </p>
+        
+        <p>
+            <input type="submit">
+            <input type="reset">
+        </p>
+
+
+
+        
+    </form>
+</body>
+</html>
