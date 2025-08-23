@@ -7,17 +7,25 @@
 </head>
 <body>
     <h1>Testando formulários</h1>
-    <form action="cadastro.php" method="get"><fieldset>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+        <legend>Sexo:</legend>
+            <input type="radio" id="inot" name="sexo"  value="N"><label for="inot">Não informar</label><br>
+            <input type="radio" id="imas" name="sexo" value="M"><label for="imas">Masculino</label><br>
+            <input type="radio" id="ifem" name="sexo" value="F"><label for="ifem">Femenino</label>
+
+        </fieldset>
+        <fieldset>
         <legend>Opções</legend>
-            <p>
-                <input type="checkbox" id="iarroz"><label for="iarroz">Arroz</label><br>
-                <input type="checkbox" id="ifeijao"><label for="ifeijao">Feijão</label>
-            </p>
-            <p>
-                <input type="submit">
-                <input type="reset">
-            </p>
-    </fieldset>
+                <p>
+                    <input type="checkbox" id="iarroz"><label for="iarroz">Arroz</label><br>
+                    <input type="checkbox" id="ifeijao"><label for="ifeijao">Feijão</label>
+                </p>
+                <p>
+                    <input type="submit">
+                    <input type="reset">
+                </p>
+        </fieldset>
 
     </form>
 </body>
