@@ -2,3 +2,7 @@
 
 /* configurações em pé (retrato) */
 
+body{
+    background: url(../../imagens/cev-portrait.jpg);
+}
+
