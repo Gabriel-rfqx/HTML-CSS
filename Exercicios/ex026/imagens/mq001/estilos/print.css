@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+
+header{
+
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.719), grey);
+    color: white;
+    padding-top: 10px;
+
+}
+header h1{
+        text-align: center;
+}
+header li{
+    padding: 2px;
+    background-color: rgba(127, 255, 212, 0.322);
+    display: inline-block;
+}
+main{
+    padding: 10px;
+}
+article{
+    max-width: 800px;
+    margin: auto;
+}
+main  article h2{
+    text-align: center;
+    margin: 20px;
+}
+main p{
+    text-align: justify;
+    text-indent: 20px;
+}

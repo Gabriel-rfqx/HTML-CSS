@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 30px;
+}
+
+header menu{
+    display: none;
+}
+header h1{
+    text-align: center;
+}
+header li{
+    padding: 5px;
+    background-color: rgba(127, 255, 212, 0.322);
+    display: inline-block;
+}
+main{
+    padding: 10px;
+}
+article{
+    max-width: 800px;
+    margin: auto;
+}
+main  article h2{
+    text-align: center;
+    margin: 20px;
+}
+main p{
+    text-align: justify;
+    text-indent: 20px;
+}
+
+article::after{
+    content: "Este artigo foi expresso pelo site do riflequex";
+}
