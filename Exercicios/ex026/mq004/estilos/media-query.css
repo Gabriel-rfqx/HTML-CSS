@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* todas as demais midias */
+
+/* Typical Device Breakpoints
+------------------------------------
+small phones: 0-480
+tablets && large phones: 481-768
+laptos, large tablest e small dsktops: 769-1279
+large desktops and monitors: 1280+
+*/
+
+
+
+@media print {
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    img#pri{display: block;}
+    main{
+        border: 1px solid black;
+    }
+    main h1{
+        color: black;
+        text-shadow: none;
+    }
+    body::after{
+        content: "ESta impressão foi feita pelo site do riflequex";}
+}
+@media screen and (max-width: 575px) {
+    img#cel{display: block;}
+    body{
+        background: black url(../../imagens/back-phone.jpg) no-repeat center center/cover;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    img#tab{display: block;}
+    body{
+        background: black url(../../imagens/back-tablet.jpg) no-repeat center center/cover;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    img#pc{display: block;}
+    body{
+        background: black url(../../imagens/back-pc.jpg) no-repeat center center/cover;
+    }
+}
+@media screen and (min-width:1280px) {
+    img#tv{display: block;}
+    body{
+        background: black url(../../imagens/back-tv.jpg) no-repeat center center/cover;
+    }
+}
