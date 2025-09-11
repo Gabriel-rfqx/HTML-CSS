@@ -3,3 +3,51 @@
 
 
 
+/* Typical Device Breakpoints
+------------------------------------
+small phones: 0-480
+tablets && large phones: 481-768
+laptos, large tablest e small dsktops: 769-1279
+large desktops and monitors: 1280+
+*/
+
+@media screen and (max-width: 768px) {
+    body{
+background-color: #5f2c82;
+    }
+    #info{
+    height: 300px;
+    }
+   #imagem{
+    height: 200px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    body{
+       
+    }
+    #conteudo{
+        width: 80vw;
+    }
+    #imagem{
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+    #info{
+        
+        width: 60%;
+        height: 100%;
+        float: right;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    #conteudo{
+        width: 1024px;
+    }
+    #imagem{
+        height: 40%;
+    }
+}
