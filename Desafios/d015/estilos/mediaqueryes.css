@@ -35,8 +35,8 @@ background-color: #5f2c82;
         float: left;
     }
     #info{
-        
-        width: 60%;
+        margin: 10px;
+        width: 55%;
         height: 100%;
         float: right;
     }
@@ -49,5 +49,15 @@ background-color: #5f2c82;
     }
     #imagem{
         height: 40%;
+    }
+    #info{
+        margin: 30px;
+    }
+    #info h1{
+        font-size: 3em;
+
+    }
+    #info p{
+        font-size: 1.5em;
     }
 }

@@ -12,7 +12,6 @@ body{
     width: 100%;
 }
 #conteudo{
-    
     overflow: hidden;
     position: absolute;
     transform: translate(50%, 50%);
@@ -31,4 +30,12 @@ body{
 
 div#imagem{
     background: purple url(../imagens/imagenm.jpg) no-repeat center center/cover;
+}
+
+#info h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+#info p{
+    
 }
