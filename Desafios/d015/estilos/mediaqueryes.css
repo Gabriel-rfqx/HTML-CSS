@@ -12,52 +12,74 @@ large desktops and monitors: 1280+
 */
 
 @media screen and (max-width: 768px) {
-    body{
-background-color: #5f2c82;
+    body {
+        background-color: #5f2c82;
     }
-    #info{
-    height: 300px;
+
+    #imagem {
+        height: 200px;
     }
-   #imagem{
-    height: 200px;
+
+    #info {
+        margin: 9px;
+        height: 300px;
+    }
+    #info p {
+        padding-bottom: 10px;
+    }
+    #botoes{
+        margin-top: 20px;
+    }
+    .botao{
+        cursor: pointer;
+        margin-top: 5px;
+        width: 100%;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1279px){
-    body{
-       
-    }
-    #conteudo{
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+
+    #conteudo {
         width: 80vw;
     }
-    #imagem{
+
+    #imagem {
         width: 40%;
         height: 100%;
         float: left;
     }
-    #info{
+
+    #info {
         margin: 10px;
         width: 55%;
         height: 100%;
         float: right;
     }
+    #info p{
+        margin-top: 30px;
+    }
 
+    form
 }
 
 @media screen and (min-width: 1280px) {
-    #conteudo{
+    #conteudo {
         width: 1024px;
     }
-    #imagem{
+
+    #imagem {
         height: 40%;
     }
-    #info{
+
+    #info {
         margin: 30px;
     }
-    #info h1{
+
+    #info h1 {
         font-size: 3em;
 
     }
-    #info p{
+    #info p {
         font-size: 1.5em;
     }
 }
