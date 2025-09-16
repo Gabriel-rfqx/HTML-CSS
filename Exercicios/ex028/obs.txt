@@ -1,0 +1,40 @@
+order: são as posições dos intens 
+(valor padrão para todos é 0)
+
+
+        align-self: (alinhamento do cross ("verical" de cada elemento individual))
+
+        auto (herda a configuração do pai (container))
+        flex-start (Gruda no start do cross)
+        flex-end (Gruda no final do cross)
+        center (fica no centro do cross)
+        stretch (estica )
+
+
+
+        flex-basis: (É a largura min/max do elemento se tiver espaço sobrando )
+
+        auto(é o padrão, se adpta ao tamanho do conteudo q a dentro) 
+
+
+        grow (crescer)
+
+        0 - valor padrão ( não pode crescer )
+        1 - ( pode crescer)
+        2 - (vai crescer o drobo do elemento q tiver 1  (o elemento de referencia, pode ser outros valores), se não tiver 1 e tiver dois 2 eles crescem proporcional)
+
+
+        shrink (diminuir)
+
+        0 - (não pode encolher)
+        1 - valor padrão (sim pode encolher)
+        2 - (vai diminuir o drobo do elemento q tiver 1 (o elemento de referencia, pode ser outros valores), se não tiver 1 e tiver dois 2 eles diminuem proporcionalmente)
+        
+
+        shorthand dos filhos (itens)
+
+        flex: 
+
+        1° grow
+        2° shrink
+        3° basis

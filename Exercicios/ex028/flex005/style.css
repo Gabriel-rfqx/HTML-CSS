@@ -1,0 +1,48 @@
+body{
+    background-color: gray;
+    color: wheat;
+}
+
+.container{
+    flex-flow: row wrap;
+    display: flex;
+    background-color: coral
+}
+.item{
+    
+    
+    /* 
+     shorthand dos filhos (itens)
+
+        flex: 0 1 auto;
+
+        1° grow
+        2° shrink
+        3° basis
+
+        para flex: 0 1 auto =  flex: initial (configuração padrao de fabrica)
+        para flex: 0 0 auto = flex: none (Nenhuma flexibilidade)
+        para flex: 1 1 auto = flex: auto (Caixa com maximo de flexibilidade) 
+    */
+    flex: 1 1 150px;
+    text-align: center;
+    background-color: rgb(19, 85, 85);
+    border: 1px solid salmon;
+    
+}
+#i1{
+    flex: 1 1 50px;
+}
+#i2{
+
+}
+#i3{
+
+}
+    
+#i4{
+
+}
+#i5{
+    flex: 0 0 300px;
+}

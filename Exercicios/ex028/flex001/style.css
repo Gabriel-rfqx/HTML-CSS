@@ -1,0 +1,33 @@
+body{
+    background-color: gray;
+    color: wheat;
+}
+
+.container{
+    display: flex;
+    height: 100px;
+    background-color: coral
+}
+.item{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(19, 85, 85);
+    border: 1px solid salmon;
+}
+#i1{
+    order: 1;   
+}
+#i2{
+    order: 2;
+}
+#i3{
+    order: 2;
+}
+
+#i4{
+    order: 3;
+}
+#i5{
+    order: -6;
+}

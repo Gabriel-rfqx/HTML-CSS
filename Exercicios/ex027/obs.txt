@@ -1,0 +1,30 @@
+
+    Justify content: alinhamento em relação ao eixo main 
+
+        flex-start (No start do main)
+        flex-end (No final do main)
+        center (No centro do main)
+        space-between (O primeiro e o ultimo ficam nas extremidades)
+        space-evenly (espaço igual para todos)
+        space-around (Calcula quantos "quadradinhos" tem, e faz uma caixa de acordo com a quantidade de "quadrados", ai centraliza o conteudo no meio dos quadrados)
+
+  
+    align-items: (é o alinhamento vertical) (-/-/- São dos elementos -/-/-)
+
+    stretch (estica de acordo com o tamanho da caixa) (é o padrão)
+    center ( alinha no centro) 
+    flex-start ( no inicio)
+    flex-end (no final)
+
+
+
+
+
+    align-content: (é o alinhamento do enpacotamento de itens, no eixo transversal (eixo do cross)) (-/-/- É de todo o conjunto/pacote -/-/-)
+
+    flex-start
+    flex-end
+    center
+    space-between
+    space-around
+    space-evenly

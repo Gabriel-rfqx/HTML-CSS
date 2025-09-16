@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(68, 68, 68);
+}
+.conteiner{
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: row nowrap;
+    /* 
+    
+    Justify content: alinhamento em relação ao eixo main
+
+        flex-start (No start do main)
+        flex-end (No final do main)
+        center (No centro do main)
+        space-between (O primeiro e o ultimo ficam nas extremidades)
+        space-evenly (espaço igual para todos)
+        space-around (Calcula quantos "quadradinhos" tem, e faz uma caixa de acordo com a quantidade de "quadrados", ai centraliza o conteudo no meio dos quadrados)
+
+
+    
+    */
+    justify-content: space-evenly;
+     height: 80px;
+    /* 
+    
+    align-items: (é o alinhamento vertical)
+
+    stretch (estica de acordo com o tamanho da caixa) (é o padrão)
+    center ( alinha no centro) 
+    flex-start ( no inicio)
+    flex-end (no final)
+
+
+    */
+    align-items: stretch;
+
+}
+.items{
+   
+    text-align: center;
+    border: 1px solid black;
+    width: 10px;
+    background-color: blueviolet;
+}

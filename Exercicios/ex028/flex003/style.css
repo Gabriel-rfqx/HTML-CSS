@@ -1,0 +1,42 @@
+body{
+    background-color: gray;
+    color: wheat;
+}
+
+.container{
+    flex-flow: row wrap;
+    display: flex;
+    background-color: coral
+}
+.item{
+    
+    
+    /* 
+        flex-basis: (É a largura min/max do elemento se tiver espaço sobrando )
+        
+
+        auto(é o padrão, se adpta ao tamanho do conteudo q a dentro) 
+    */
+
+    flex-basis: 200px;
+    text-align: center;
+    background-color: rgb(19, 85, 85);
+    border: 1px solid salmon;
+    
+}
+#i1{
+    flex-basis: 50px;
+}
+#i2{
+
+}
+#i3{
+
+}
+
+#i4{
+
+}
+#i5{
+
+}

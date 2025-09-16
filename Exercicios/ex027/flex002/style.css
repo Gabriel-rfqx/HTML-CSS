@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(68, 68, 68);
+}
+.conteiner{
+    background-color: antiquewhite;
+    display: flex;
+    flex-flow: row wrap;
+}
+.items{
+    text-align: center;
+    border: 1px solid black;
+    flex: auto;
+    background-color: blueviolet;
+}

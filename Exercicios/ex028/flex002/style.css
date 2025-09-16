@@ -1,0 +1,45 @@
+body{
+    background-color: gray;
+    color: wheat;
+}
+
+.container{
+    display: flex;
+    height: 100px;
+    background-color: coral
+}
+.item{
+
+    /* 
+        align-self: (alinhamento do cross ("verical" de cada elemento individual))
+
+        auto (herda a configuração do pai (container))
+        flex-start (Gruda no start do cross)
+        flex-end (Gruda no final do cross)
+        center (fica no centro do cross)
+        stretch (estica )
+    */
+    align-self: auto;
+    text-align: center;
+    width: 50px;
+    background-color: rgb(19, 85, 85);
+    border: 1px solid salmon;
+    flex-flow: row nowrap;
+}
+#i1{
+    align-self: auto;
+    
+}
+#i2{
+    align-self: flex-start;
+}
+#i3{
+    align-self: flex-end;
+}
+
+#i4{
+    align-self: stretch;
+}
+#i5{
+    align-self: center;
+}

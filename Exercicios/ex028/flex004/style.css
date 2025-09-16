@@ -1,0 +1,55 @@
+body{
+    background-color: gray;
+    color: wheat;
+}
+
+.container{
+    flex-flow: row wrap;
+    display: flex;
+    background-color: coral
+}
+.item{
+    
+    
+    /* 
+        grow (crescer)
+
+        0 - valor padrão ( não pode crescer )
+        1 - ( pode crescer)
+        2 - (vai crescer o drobo do elemento q tiver 1, se não tiver 1 e tiver dois 2 eles crescem proporcional)
+
+
+        shrink (diminuir)
+
+        0 - (não pode encolher)
+        1 - valor padrão (sim pode encolher)
+        2 - (vai diminuir o drobo do elemento q tiver 1, se não tiver 1 e tiver dois 2 eles diminuem proporcionalmente)
+    */
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+    text-align: center;
+    background-color: rgb(19, 85, 85);
+    border: 1px solid salmon;
+    
+}
+#i1{
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 50px;
+}
+#i2{
+
+}
+#i3{
+
+}
+    
+#i4{
+
+}
+#i5{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
