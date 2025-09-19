@@ -1,0 +1,55 @@
+Comandos do Grid
+
+
+        dysplay: grid; (deixa um container com a propriedade grid)
+        grid-template-columns: auto auto auto; (gera novas colunas (pode ser auto/valor))
+        grid-template-rows: auto auto auto; (gera novas linhas (pode ser auto/valor))
+        gap: 10px; (espaçamento entre os items)
+
+        sobre alinhamentos:
+
+        align (É o alinhamento vertical)
+        justify (É o alinhamento horizontal)
+
+        align-items: (ajusta a posição vetical dos elementos dentro de um item )
+                -stretch (padrão (estica os elementos para preencher o item))
+                - start
+                - center
+                - end 
+
+        justify-items: (ajusta a posição horizontal dos elementos dentro de um item)
+                -stretch (padrão (estica os elementos para preencher o item))
+                - start
+                - center
+                - end 
+
+        
+        align-content: (alinhamento vertical do conjunto de items do grid)
+        - stretch (normal)
+        - start 
+        - center
+        - end
+        - space-between
+        - space-evenly
+        - space-around
+
+        justify-content: (alinhamento horizontal do conjunto de items do grid)
+
+        - stretch (normal)
+        - start 
+        - center
+        - end
+        - space-between
+        - space-evenly
+        - space-around
+        
+        grid-auto-columns: (Predefine um tamanho, quando uma coluna, não explicita for criada)
+        grid-auto-row: (Predefine um tamanho, quando uma linha, não explicita for criada)
+
+        ShortHand grid (container)
+
+        place-items: align-items justify-content
+
+        place-content: align-content justify-content  
+
+        grid-template: grid-template-rows / grid-template-columns
