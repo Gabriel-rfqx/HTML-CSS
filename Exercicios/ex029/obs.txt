@@ -53,3 +53,7 @@ Comandos do Grid
         place-content: align-content justify-content  
 
         grid-template: grid-template-rows / grid-template-columns
+
+        grid-template: repeat(3, alguma medida) / repeat(3, alguma medida);
+
+        grid-auto-flows: row/colum (Quebra o conteudo em forma de linha ou coluna)

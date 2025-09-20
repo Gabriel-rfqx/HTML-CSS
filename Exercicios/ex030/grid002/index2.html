@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Items</title>
+    <style>
+       .container{
+        display: grid;
+        border: 5px solid red;
+        grid-template: repeat(3, 100px)/ repeat(4, 1fr);
+        gap: 5px;
+       } 
+       .caixa1{
+        background-color: aquamarine;
+            border: 2px dashed blue;
+            grid-area: 1 / 2 / span 1/ span 2;
+       }
+       .caixa2{
+        background-color: gainsboro;
+            border: 2px dashed blue;
+            grid-area: 2 / 1 / span 2 / span 2;
+       }
+       .caixa3{
+            background-color: bisque;
+            border: 2px dashed blue;
+            grid-area: 2 / 3 / span 2 / span 2
+           
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="caixa1">ABACATE</div>
+        <div class="caixa2">ARROx</div>
+        <div class="caixa3">FEijao</div>
+    </div>
+</body>
+</html>
